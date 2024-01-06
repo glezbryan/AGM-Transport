@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+header{
+    background-color: red;
+    display: block;
+    margin: 0;
+    padding-top: 10px;
+}
+.title{
+    margin: 10px;
+    font-size: 42px;
+    color: white;
+    text-decoration-line: none;
+}
+button{
+    cursor: pointer;
+}
+.header_directory{
+    display: block;
+    background-color: white; 
+    margin-top: 15px;
+    padding: 0px;
+    display: flex;
+}
+.header_button{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-style:dashed;
+    border-color: lightgray;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    margin: 0;
+    padding: 5px 15px;
+    text-decoration-line: none;
+}
+.home_images{
+    margin: 10px;
+
+}
+.home_image{
+    display: block;
+    width:500px;
+}
+main{
+    margin: 10px;
+}
