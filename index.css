@@ -11,17 +11,21 @@ header{
 }
 main{
     margin: 10px;
-    display: grid;
-    height: 100%
+    display: block;
+    min-height: 100vh;
+}
+footer{
+    display: flex;
+    background-color: red;
+    border-color: white;
+    border-top: solid;
+    border-width: 10px;
 }
 .title{
     margin: 10px;
     font-size: 42px;
     color: white;
     text-decoration-line: none;
-}
-button{
-    cursor: pointer;
 }
 .header_directory{
     display: block;
@@ -43,9 +47,18 @@ button{
     padding: 5px 15px;
     text-decoration-line: none;
 }
-.home_images{
+.footer_box{
+    width: 50%;
+    padding: 10px;
+}
+.footer_link{
+    color: white;
+    display: block;
+}
+.img_box{
     margin: 10px;
-
+    display: grid;
+    height: 100%;
 }
 .center_fit{
     width: 600px;
