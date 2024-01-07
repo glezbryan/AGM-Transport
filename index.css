@@ -47,7 +47,8 @@ button{
     margin: 10px;
 
 }
-.home_image{
+.center_fit{
+    width: 600px;
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
